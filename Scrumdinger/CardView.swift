@@ -16,6 +16,9 @@ struct CardView: View {
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
+                Spacer()
+                Label("\(scrum.lengthInMinutes)", systemImage: /*@START_MENU_TOKEN@*/"clock"/*@END_MENU_TOKEN@*/)
+
             }
         }
     }
