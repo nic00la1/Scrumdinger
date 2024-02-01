@@ -11,9 +11,25 @@ struct ScrumsView: View {
     let scrums: [DailyScrum]
     
     var body: some View {
-        List(scrums) { scrum in
-            CardView(scrum: scrum)
+        NavigationStack {
+            List(scrums) { scrum in
+                NavigationLink (destination: Text(scrum.title)) {
+                    CardView(scrum: scrum)
+                    
+                }
                 .listRowBackground(scrum.theme.mainColor)
+            }
+            .navigationTitle("Daily Scrums")
+            .toolbar {
+                Button(action: {}) {
+                    Image(systemName: "plus")
+                        .font(.subheadline)
+                        .padding(3)
+                        .fontWeight(.bold)
+                        .background(Color.accentColor.opacity(0.2)).cornerRadius(35)
+                }
+                .accessibilityLabel("New Scrum")
+            }
         }
     }
 }
