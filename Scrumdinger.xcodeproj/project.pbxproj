@@ -27,6 +27,7 @@
 		B3FC0FF32B6EB47700970622 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF22B6EB47700970622 /* NewScrumSheet.swift */; };
 		B3FC0FF82B6EB8AE00970622 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF72B6EB8AE00970622 /* ScrumProgressViewStyle.swift */; };
 		B3FC0FFA2B6EC35C00970622 /* DetailEditSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF92B6EC35C00970622 /* DetailEditSheetView.swift */; };
+		B3FC0FFC2B6ECC3E00970622 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FFB2B6ECC3E00970622 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B3FC0FF22B6EB47700970622 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		B3FC0FF72B6EB8AE00970622 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		B3FC0FF92B6EC35C00970622 /* DetailEditSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditSheetView.swift; sourceTree = "<group>"; };
+		B3FC0FFB2B6ECC3E00970622 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				B3E35F3C2B6AF778002D2234 /* TrailingIconLabelStyle.swift */,
 				B3E35F382B6AEE41002D2234 /* DailyScrum.swift */,
 				B3B4118C2B6D603200AE29B9 /* ScrumTimer.swift */,
+				B3FC0FFB2B6ECC3E00970622 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				B374F6AE2B6BC09200F83337 /* ThemePicker.swift in Sources */,
 				B3B4118F2B6D635A00AE29B9 /* MeetingFooterView.swift in Sources */,
+				B3FC0FFC2B6ECC3E00970622 /* History.swift in Sources */,
 				B3B4118D2B6D603200AE29B9 /* ScrumTimer.swift in Sources */,
 				B3E35F392B6AEE41002D2234 /* DailyScrum.swift in Sources */,
 				B3B411932B6D6AA100AE29B9 /* AVPlayer+Ding.swift in Sources */,
