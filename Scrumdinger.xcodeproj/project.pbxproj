@@ -26,6 +26,7 @@
 		B3E35F3D2B6AF778002D2234 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E35F3C2B6AF778002D2234 /* TrailingIconLabelStyle.swift */; };
 		B3FC0FF32B6EB47700970622 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF22B6EB47700970622 /* NewScrumSheet.swift */; };
 		B3FC0FF82B6EB8AE00970622 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF72B6EB8AE00970622 /* ScrumProgressViewStyle.swift */; };
+		B3FC0FFA2B6EC35C00970622 /* DetailEditSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC0FF92B6EC35C00970622 /* DetailEditSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B3E35F3C2B6AF778002D2234 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		B3FC0FF22B6EB47700970622 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		B3FC0FF72B6EB8AE00970622 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		B3FC0FF92B6EC35C00970622 /* DetailEditSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				B3FC0FF22B6EB47700970622 /* NewScrumSheet.swift */,
 				B374F6A62B6BA2A800F83337 /* DetailView.swift */,
 				B374F6A42B6B973500F83337 /* ScrumsView.swift */,
+				B3FC0FF92B6EC35C00970622 /* DetailEditSheetView.swift */,
 			);
 			path = "Page 1";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				B3FC0FF32B6EB47700970622 /* NewScrumSheet.swift in Sources */,
 				B3E35F3D2B6AF778002D2234 /* TrailingIconLabelStyle.swift in Sources */,
 				B3E35F372B6AEB64002D2234 /* Theme.swift in Sources */,
+				B3FC0FFA2B6EC35C00970622 /* DetailEditSheetView.swift in Sources */,
 				B374F6A52B6B973500F83337 /* ScrumsView.swift in Sources */,
 				B3E35F2A2B6AE225002D2234 /* MeetingView.swift in Sources */,
 				B374F6A92B6BB3FC00F83337 /* DetailEditView.swift in Sources */,
