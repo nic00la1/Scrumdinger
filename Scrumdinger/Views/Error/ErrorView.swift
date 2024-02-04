@@ -9,22 +9,32 @@ import SwiftUI
 
 struct ErrorView: View {
     let errorWraper: ErrorWrapper
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        VStack {
-            Text("An error has occured!")
-                .font(.title)
-                .padding(.bottom)
-            Text(errorWraper.error.localizedDescription)
-                .font(.headline)
-            Text(errorWraper.guidance)
-                .font(.caption)
-                .padding(.top)
-            Spacer()
+        NavigationStack {
+            VStack {
+                Text("An error has occured!")
+                    .font(.title)
+                    .padding(.bottom)
+                Text(errorWraper.error.localizedDescription)
+                    .font(.headline)
+                Text(errorWraper.guidance)
+                    .font(.caption)
+                    .padding(.top)
+                Spacer()
+            }
+            .padding()
+            .background(.ultraThinMaterial)
+            .cornerRadius(16)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Dismiss") {
+                        dismiss()
+                    }
+                }
+            }
         }
-        .padding()
-        .background(.ultraThinMaterial)
-        .cornerRadius(16)
     }
 }
 
